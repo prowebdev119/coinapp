@@ -316,6 +316,7 @@
     }
     .section1_img{
         width: 100%;
+        margin-right: 0;
     }
     .section1_left{
         display: flex;

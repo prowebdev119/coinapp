@@ -418,6 +418,7 @@
     }
     .section2{
         flex-direction: column;
+        padding: 100px 0;
     }
     .section2_left{
         display: flex;
@@ -429,10 +430,10 @@
     }
     .section3_reverse{
         flex-direction: column;
-        padding-top: 10px;
+        padding-top: 100px;
     }
     .section3_right{
-        padding-top: 40px;
+        padding-top: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;

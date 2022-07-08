@@ -46,7 +46,7 @@
                             <div>10 USD</div>
                         </div>
                         <div class="popup_row">
-                            <div class="popup_question">Network Cost <div class="popup_row_question">?</div></div>
+                            <div>Network Cost</div>
                             <div>0.00000000 BTC</div>
                         </div>
                         <div class="popup_row">
@@ -54,7 +54,8 @@
                             <div>0.00000000 BTC</div>
                         </div>
                     </div>
-                  </div>
+                    <div class="mask"></div>
+                </div>
             </div>
             <div class="amount_wallet">
                 <div class="amount_title">Amount Due</div>
@@ -106,14 +107,23 @@
 
     var modal = document.getElementById("myModal");
     var btn = document.getElementById("popupbtn");
+    var mask = document.querySelector(".mask");
+    var temp = document.querySelector(".popup");
 
     btn.onclick = function() {
-        modal.style.display = "block";
+       mask.classList.add("active")
+       temp.classList.add("active")
+        
     }
 
+    mask.onclick = function() {
+        temp.classList.remove("active")
+        mask.classList.remove("active")
+    }
     window.onclick = function(event) {
         if (event.target == modal) {
-            modal.style.display = "none";
+            var temp = document.querySelector(".popup");
+            temp.classList.remove("active")
         }
     }
 </script>

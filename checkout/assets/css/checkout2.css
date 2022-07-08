@@ -83,7 +83,8 @@ body{
     position: relative;
     margin-top: 20px;
     width: 356px;
-    height: 179px;
+    /* height: 179px; */
+    height: 230px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
     border-radius: 10px;
@@ -114,6 +115,9 @@ body{
     box-sizing: border-box;
     border-radius: 5px;
     padding: 0 12px;
+}
+.seconds{
+    margin-top: 10px;
 }
 .copy_input{
     max-width: 270px;

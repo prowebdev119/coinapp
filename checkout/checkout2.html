@@ -17,19 +17,44 @@
             <div class="second_logo"><img src="./assets/images/checklogo.svg" alt="checklogo"></div>
             <div class="second_title">Process Payment</div>
             <div class="second_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit volutpat rhoncus pharetra nunc.</div>
-            <div class="barcode">
+            <div id="popupopen" class="barcode">
                 <div class="barcode_top">
                     <div class="top_left">
                         <img src="./assets/images/clock.svg" alt="clock">
                         <div class="time" id="timer" data-minutes="15" data-seconds="0"></div>
                     </div>
-                    <div class="top_right">
+                    <div class="top_right" id="popupbtn">
                         <img src="./assets/images/info.svg" alt="info">
                     </div>
                 </div>
                 <div class="barcode_img">
                     <img src="./assets/images/bitcoincode.svg" alt="">
                 </div>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="popup">
+                        <div class="popup_row">
+                            <div>Total Price</div>
+                            <div>10 USD</div>
+                        </div>
+                        <div class="popup_row">
+                            <div>Exchange Rate</div>
+                            <div>10 USD</div>
+                        </div>
+                        <div class="popup_row">
+                            <div>Subtotal </div>
+                            <div>10 USD</div>
+                        </div>
+                        <div class="popup_row">
+                            <div>Network Cost</div>
+                            <div>0.00000000 BTC</div>
+                        </div>
+                        <div class="popup_row">
+                            <div class="popup_row_bold">Amount Due</div>
+                            <div>0.00000000 BTC</div>
+                        </div>
+                    </div>
+                  </div>
             </div>
             <div class="amount_wallet">
                 <div class="amount_title">Amount Due</div>
@@ -67,16 +92,29 @@
 </body>
 <script src="./assets/js/countdown timer.js"></script>
 <script>
- function asd(ele){
-    var preSibling = ele.previousElementSibling;
-    var content = preSibling.innerHTML;
-    navigator.clipboard.writeText(content);
+    function asd(ele){
+        var preSibling = ele.previousElementSibling;
+        var content = preSibling.innerHTML;
+        navigator.clipboard.writeText(content);
 
-    document.getElementsByClassName("tooltip")[0].style.display = "block";
-    function hide(){
-        document.getElementsByClassName("tooltip")[0].style.display = "none";
+        document.getElementsByClassName("tooltip")[0].style.display = "block";
+        function hide(){
+            document.getElementsByClassName("tooltip")[0].style.display = "none";
+        }
+        setTimeout(hide, 1000);
     }
-    setTimeout(hide, 1000);
- }
+
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("popupbtn");
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
 </script>
 </html>

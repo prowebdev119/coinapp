@@ -17,7 +17,7 @@
             <div class="second_logo"><img src="./assets/images/checklogo.svg" alt="checklogo"></div>
             <div class="second_title">Process Payment</div>
             <div class="second_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit volutpat rhoncus pharetra nunc.</div>
-            <div id="popupopen" class="barcode">
+            <div class="barcode">
                 <div class="barcode_top">
                     <div class="top_left">
                         <img src="./assets/images/clock.svg" alt="clock">
@@ -30,7 +30,7 @@
                 <div class="barcode_img">
                     <img src="./assets/images/bitcoincode.svg" alt="">
                 </div>
-                <div id="myModal" class="modal">
+                <div class="modal">
                     <!-- Modal content -->
                     <div class="popup">
                         <div class="popup_row">
@@ -105,7 +105,6 @@
         setTimeout(hide, 1000);
     }
 
-    var modal = document.getElementById("myModal");
     var btn = document.getElementById("popupbtn");
     var mask = document.querySelector(".mask");
     var temp = document.querySelector(".popup");
@@ -119,12 +118,6 @@
     mask.onclick = function() {
         temp.classList.remove("active")
         mask.classList.remove("active")
-    }
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            var temp = document.querySelector(".popup");
-            temp.classList.remove("active")
-        }
     }
 </script>
 </html>

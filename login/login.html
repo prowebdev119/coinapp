@@ -27,7 +27,7 @@
                 <div class="row_pass">
                     <img src="./assets/images/key.svg" alt="password">
                     <input id="pwd" class="pass_input" type="password" name="password">
-                    <a href="#" onmousedown="mousedown()" onmouseup="mouseup()">Show</a>
+                    <a href="#" id="showhide" onclick="showhide()">Show</a>
                 </div>
                 <div class="row_rem">
                     <input type="checkbox" name="check">
@@ -48,11 +48,19 @@
 </body>
 <script>
     var pass = document.getElementById("pwd");
-    function mousedown(){
-        pass.setAttribute("type","text");
-    }
-    function mouseup(){
-        pass.setAttribute("type","password");
+    var btn_toggle = document.getElementById("showhide");
+    function showhide(){
+        var pwd = document.getElementById("pwd").value;
+        console.log(pwd);
+        if(pwd){
+            if(pass.getAttribute("type") == "text"){
+                pass.setAttribute("type","password");
+                btn_toggle.innerHTML = "Show";
+            } else {
+                pass.setAttribute("type","text");
+                btn_toggle.innerHTML = "Hide";
+            }
+        }
     }
 </script>
 </html>

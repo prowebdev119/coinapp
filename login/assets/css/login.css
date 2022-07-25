@@ -11,9 +11,9 @@
 }
 body{
     background-image: url(../images/mainback.svg);
-    background-size: 100%;
+    background-size: 120%;
     background-repeat: repeat-y;
-    /* background-position-y: 100px; */
+    background-position-y: -260px;
 }
 .container{
     font-family:  'made-tommy-regular';
@@ -28,7 +28,7 @@ body{
 }
 .main_logo{
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .login_card{
     border-radius: 10px;
@@ -92,7 +92,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 230px;
+    /* width: 230px; */
     background-color: #292568;
     height: 50px;
     font-size: 18px;
@@ -150,7 +150,7 @@ a:active{
         font-size: 20px;
     }
     .btn_signin{
-        width: 120px;
+        /* width: 120px; */
         height: 40px;
         font-size: 14px;
     }

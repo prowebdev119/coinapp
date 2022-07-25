@@ -13,7 +13,7 @@ body{
     background-image: url(../images/mainback.svg);
     background-size: 100%;
     background-repeat: repeat-y;
-    background-position-y: 100px;
+    /* background-position-y: 100px; */
 }
 .container{
     font-family:  'made-tommy-regular';

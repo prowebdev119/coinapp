@@ -75,6 +75,11 @@ body{
     border-radius: 10px;
     color: white;
 }
+.row_mail input:-webkit-autofill,
+.row_mail input:-webkit-autofill:hover, 
+.row_mail input:-webkit-autofill:focus{
+    background-color: red!important;
+}
 .row_rem{
     display: flex;
     align-items: center;

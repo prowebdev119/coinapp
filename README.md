@@ -1,6 +1,5 @@
-# coinapp
-You can contact me here.
 
-https://join.skype.com/invite/vox8cknMCJWc
+#coin app
 
-https://t.me/compete1191
+Here is live website.
+https://coinstack.net/

@@ -143,6 +143,9 @@ body{
     text-align: center;
     color: #0C092A;
 }
+.barcode_img{
+    overflow: hidden;
+}
 .barcode_img img{
     margin-top: -25px;
     width: 100%;

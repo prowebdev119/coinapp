@@ -106,6 +106,7 @@ body{
     right: 30px;
     border: none;
     padding: 0!important;
+    outline: none;
 }
 .back_btn:focus{
     outline: none;

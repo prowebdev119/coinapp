@@ -15,8 +15,8 @@ body{
     background-repeat: repeat-y;
 }
 .container{
-    font-family:  'made-tommy-regular';
-    font-style: normal;
+    font-family:  'made-tommy-regular'!important;
+    font-style: normal!important;
     max-width: 1100px;
     margin: auto;
 }
@@ -84,6 +84,14 @@ body{
 .captcha_pass{
     padding-top: 15px;
 }
+button{
+    font-family:  'made-tommy-regular'!important;
+    font-style: normal!important;
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
 .back_btn{
     display: flex;
     justify-content: center;
@@ -106,7 +114,6 @@ body{
     right: 30px;
     border: none;
     padding: 0!important;
-    outline: none;
 }
 .back_btn:focus{
     outline: none;

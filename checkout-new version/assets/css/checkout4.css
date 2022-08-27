@@ -61,9 +61,9 @@ body{
     padding: 10px 20px;
 }
 .card_title{
-    padding-top: 28px;
+    padding-top: 0px;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 23px;
     text-align: center;
     color: #0C092A;
@@ -71,16 +71,19 @@ body{
 .terms{
     display: flex;
     padding-top: 15px;
-
+}
+.terms div{
+    padding-left: 15px;
+    color: #7E7E7E;
 }
 .captcha_pass{
-    padding-top: 50px;
+    padding-top: 15px;
 }
 .back_btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 104px;
+    width: 130px;
     height: 35px;
     background: #0C092A;
     border-radius: 100px;

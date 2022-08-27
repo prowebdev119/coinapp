@@ -61,7 +61,7 @@ body{
     padding: 10px 20px;
 }
 .card_title{
-    padding-top: 0px;
+    padding-top: 10px;
     font-weight: 700;
     font-size: 24px;
     line-height: 23px;
@@ -86,7 +86,7 @@ body{
     width: 130px;
     height: 35px;
     background: #0C092A;
-    border-radius: 100px;
+    border-radius: 50%;
     font-weight: 400;
     font-size: 16px;
     line-height: 153.5%;

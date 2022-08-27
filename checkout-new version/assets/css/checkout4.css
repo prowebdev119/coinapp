@@ -104,6 +104,11 @@ body{
     position: absolute;
     bottom: 0;
     right: 30px;
+    border: none;
+}
+.back_btn:focus{
+    outline: none;
+    border: none;
 }
 .back_btn img{
     padding-right: 8px;

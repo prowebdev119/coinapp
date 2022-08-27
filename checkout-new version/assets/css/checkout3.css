@@ -79,54 +79,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center ;
     padding: 16px 28px;
-}
-.amount_title, .wallet_title{
-    width: 100%;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 153.5%;
-    text-align: left;
-    color: #0C092A;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-.amount_input, .wallet_input{
-    cursor: text;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 301px;
-    height: 35px;
-    background: #FCFCFC;
-    border: 1px solid #F1F1F1;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 0 12px;
-}
-.copy_input{
-    max-width: 270px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 153.5%;
-    color: transparent;
-    text-shadow: 0 0 8px #0C092A;
-    overflow: hidden;
-}
-.copy{
-    cursor: pointer;
-    padding-left: 5px;
-}
-.tooltip{
-    position: absolute;
-    bottom: -20px;
-    display: none;
-    background-color: #0C092A;
-    color: white;
-    font-size: 12px;
-    font-weight: 100;
-    padding: 5px 10px;
-    border-radius: 10px;
 }
 .back_btn{
     display: flex;
@@ -142,8 +96,6 @@ body{
     line-height: 153.5%;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 40px;
-    margin-bottom: 60px;
     cursor: pointer;
 }
 .back_btn img{

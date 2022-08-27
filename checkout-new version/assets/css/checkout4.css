@@ -110,9 +110,7 @@ body{
     border-top: 1px solid rgba(0, 0, 0, 0.15);
     padding-top: 15px;
     padding-bottom: 50px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin-top: 135px;
 }
 .footer_right{
     display: flex;

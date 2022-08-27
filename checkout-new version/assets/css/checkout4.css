@@ -51,14 +51,14 @@ body{
 .card_create{
     position: relative;
     width: 356px;
-    height: 373px;
+    height: 320px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px 40px;
+    padding: 10px 20px;
 }
 .card_title{
     padding-top: 28px;
@@ -73,6 +73,9 @@ body{
     padding-top: 15px;
 
 }
+.captcha_pass{
+    padding-top: 50px;
+}
 .back_btn{
     display: flex;
     justify-content: center;
@@ -86,10 +89,13 @@ body{
     line-height: 153.5%;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     cursor: pointer;
     text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
 }
 .back_btn img{
     padding-right: 8px;

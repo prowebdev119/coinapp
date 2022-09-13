@@ -19,14 +19,9 @@
     min-width: 566px;
 }
 .section1_title span{  
-    /* Create the gradient. */
     background-image: linear-gradient(to right, #9D7BD3, #3B6BF4);
-    /* Set the background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
-
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
@@ -93,14 +88,12 @@
     font-size: 24px;
     line-height: 200%;
     color: #7999EB;
-    /* padding-left: 144px; */
 }
 .payments{
     font-weight: 700;
     font-size: 24px;
     line-height: 200%;
     color: #64ABF9;
-    /* padding-left: 144px; */
 }
 .numbers_type{
     padding-left: 15px;

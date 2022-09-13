@@ -118,21 +118,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
-/* .popup_question{
-    display: flex;
-    align-items: center;
-}
-.popup_row_question{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: gray;
-    color: white;
-    margin-left: 5px;
-} */
 .popup_row_bold{
     font-weight: bold;
 }

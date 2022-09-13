@@ -193,10 +193,6 @@ button:focus{
     .amount_input, .wallet_input{
         width: 100%;
     }
-    /* .copy_input{
-        max-width: 250px;
-        overflow: hidden;
-    } */
     .footer_right div{
         padding-left: 10px;
     }

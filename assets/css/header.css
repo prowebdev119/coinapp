@@ -30,7 +30,6 @@ a:active{
 }
 .products_drop{
     height: 0;
-    /* display: none; */
     min-width: 120px;
     position: absolute;
     font-family:  'made-tommy-regular';

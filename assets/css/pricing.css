@@ -20,7 +20,6 @@
     min-width: 642px;
 }
 .section1_title span{  
-    /* Create the gradient. */
     background-image: linear-gradient(to right, #9D7BD3, #3B6BF4);
     background-size: 100%;
     background-repeat: repeat;

@@ -21,9 +21,6 @@ let minutesSpan = document.createElement('span'),
     s = parseInt(dataSeconds) > max ? max : parseInt(dataSeconds),
     m = parseInt(dataMinutes) > max ? max : parseInt(dataMinutes);
 
-secondsSpan.classList.add('time');
-minutesSpan.classList.add('time');
-separator2.classList.add('separator');
 separator2.textContent = separatorValue;
 
 checkValue = (value)=>{

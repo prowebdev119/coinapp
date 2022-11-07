@@ -1,5 +1,10 @@
 const oneSec = 1000,
+    container = document.getElementById('timer');
 
+let dataMinutes = container.getAttribute('data-minutes'),
+    dataSeconds = container.getAttribute('data-seconds'),
+    timerEnd = container.getAttribute('data-timer-end'),
+    timerOnEndMsg = "data-timer-end";
 
 if (dataMinutes == '' || dataMinutes == null || dataMinutes == NaN) {
     dataMinutes = "0";

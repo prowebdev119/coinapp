@@ -112,8 +112,6 @@ body{
     display: none;
     z-index: 99;
 }
-
-
 .footer{
     display: flex;
     justify-content: space-between;
@@ -130,7 +128,6 @@ body{
     font-size: 14px;
     line-height: 174.5%;
     color: #0C092A;
-    
 }
 .footer_right div{
     padding-left: 50px;

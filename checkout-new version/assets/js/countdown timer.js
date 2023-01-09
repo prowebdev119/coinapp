@@ -72,8 +72,8 @@ counter = setInterval(()=>{
 
   if (s >= 0) {
     timer(s,m);
-    minutesSpan.textContent = checkValue(m);
-    secondsSpan.textContent = checkValue(s);
+    // minutesSpan.textContent = checkValue(m);
+    // secondsSpan.textContent = checkValue(s);
   }
 }, oneSec);
 

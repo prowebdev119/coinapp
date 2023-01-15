@@ -183,7 +183,7 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #C0C0C0; 
+    background: #C0C0C0;
     border-radius: 10px;
 }
 

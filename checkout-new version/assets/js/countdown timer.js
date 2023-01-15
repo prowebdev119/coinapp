@@ -37,10 +37,8 @@ minutesSpan.textContent = checkValue(dataMinutes);
 secondsSpan.textContent = checkValue(dataSeconds);
 
 timer = (sv,mv)=>{
-
   s = parseInt(sv);
   m = parseInt(mv);
-  
   if (s > 0) {
     return s -= 1;
   } else {
